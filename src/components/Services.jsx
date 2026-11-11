@@ -52,7 +52,11 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="Services py-5" aria-labelledby="services-title">
+    <section
+      className="Services py-5"
+      id="services"
+      aria-labelledby="services-title"
+    >
       <div className="container">
         <div className="text-center mb-4 mb-lg-5">
           <p className="services-eyebrow mb-2">Thoughtful print. Lasting impact.</p>
@@ -74,19 +78,7 @@ const Services = () => {
                   className="card-img-top"
                   alt={service.alt}
                 />
-                <div
-                  className="card-body p-4"
-                  style={{
-                    position: "static",
-                    display: "block",
-                    opacity: 1,
-                    transform: "none",
-                    padding: "1.5rem",
-                    color: "var(--text)",
-                    background: "#fff",
-                    textAlign: "left",
-                  }}
-                >
+                <div className="card-body">
                   <h3 className="card-title h5">{service.title}</h3>
                   <p className="card-text mb-0">{service.description}</p>
                 </div>
