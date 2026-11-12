@@ -19,7 +19,7 @@ const AboutUs = () => {
                   className="img-fluid"
                 />
               </div>
-              <div className="printing-cylinder-image">
+              <div className="printing-container-image">
                 <img
                   src={printingImage}
                   alt="Printing production in progress"

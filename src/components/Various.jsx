@@ -1,6 +1,6 @@
 const Various = () => {
   return (
-    <section className="various-section py-5">
+    <section className="various-section py-5" id="purpose">
       <div className="container">
         <div className="mb-4 mb-lg-5 text-center">
           <p className="various-eyebrow mb-2">What guides us</p>

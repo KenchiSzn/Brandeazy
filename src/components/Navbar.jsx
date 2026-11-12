@@ -4,7 +4,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50)
+    const handleScroll = () => setScrolled(window.scrollY > 30)
 
     handleScroll()
     window.addEventListener('scroll', handleScroll)
@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav
       className={`navbar navbar-expand-lg sticky-top site-navbar ${scrolled ? 'is-scrolled' : ''}`}
     >
-      <div className="container-fluid">
+      <div className="container">
         <a className="navbar-brand" href="#home">Brandeazy</a>
         <button
           className="navbar-toggler"
@@ -35,13 +35,13 @@ const Navbar = () => {
               <a className="nav-link" href="#home">Home</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#services">Our Services</a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#about">About Us</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#purpose">Purpose</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#services">Our Services</a>
             </li>
           </ul>
         </div>

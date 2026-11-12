@@ -12,7 +12,7 @@ const ProductAssurance = () => {
               <p>We never compromise on quality.</p>
             </div>
           </div>
-          <div className="dash" aria-hidden="true"></div>
+          {/* <div className="dash" aria-hidden="true"></div> */}
           <div className="product-assurance__item col-12 col-md-4">
             <div className="product-assurance__content d-flex flex-column justify-content-center align-items-center">
               <div className="assuarance__icon">
@@ -22,7 +22,7 @@ const ProductAssurance = () => {
               <p>Packaging that fits your unique brand.</p>
             </div>
           </div>
-          <div className="dash" aria-hidden="true"></div>
+          {/* <div className="dash" aria-hidden="true"></div> */}
           <div className="product-assurance__item col-12 col-md-4">
             <div className="product-assurance__content d-flex flex-column justify-content-center align-items-center">
               <div className="assuarance__icon">
